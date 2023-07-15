@@ -5,13 +5,13 @@ Objectives:
 1. To create a RESTAPI endpoint that converts text to image. Use any Python framework to achieve this.
 
 2. The output should cohere to these points:
-   a. The generated image should look exactly what the text wants
-   b. You can use any AI service available in the market to achieve this
-   c. The image should not contain obscene objects of interest
-   d. We should be able to generate marketing-specific content While generating the image, the API should take into consideration the look & feel of the image, i.e. friendly, professional, personal etc.
-   e. We should not be able to reproduce the same image. It should be unique.
+- The generated image should look exactly as described in the text prompt.
+- Any AI service available in the market can be used to achieve this.
+- The image should not contain any obscene objects of interest.
+- Marketing-specific content should be generated, taking into consideration the look & feel of the image (e.g., friendly, professional, personal).
+- Each generated image is unique and cannot be reproduced.
 
-## Details
+## Project Description
 
 1. Created a REST endpoint using Flask.
 2. The application uses OpenAI API to generate images based on the user-given prompt
